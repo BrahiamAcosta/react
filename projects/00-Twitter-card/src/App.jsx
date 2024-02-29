@@ -1,22 +1,27 @@
 import './App.css'
+import { TwitterFollowCard } from './TwitterFollowCard'
 
+//El simbolo <> indica que se renderizará mas de un componente
 export function App(){
     return(
-        <article className='tw-follow-card'>
-            <header>
-                <img src="https://unavatar.io/duckduckgo/gummibeer.dev" alt="Avatar Gummibeer" />
-                <div>
-                    <strong>GummiBeer</strong>
-                    <span>@gummibeer.dev</span>
-                </div>
-            </header>
+        <section className='App'>
+            <TwitterFollowCard
+            userName={"midudev"}
+            isFollowing={true}>
+                Miguel Ángel Durán
+            </TwitterFollowCard>
 
-            <aside>
-                <button>
-                    Seguir
-                </button>
-            </aside>
-        </article>
+            <TwitterFollowCard
+            userName={"IbaiLlanos"}
+            isFollowing={false}>
+                Ibai Llanos
+            </TwitterFollowCard>
 
+            <TwitterFollowCard
+            userName={"morgan_freeman"}
+            isFollowing={false}>
+                Morgan Freman
+            </TwitterFollowCard>
+        </section>
     )
 }
