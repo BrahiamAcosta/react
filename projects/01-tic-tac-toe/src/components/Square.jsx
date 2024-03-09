@@ -1,14 +1,14 @@
+export const Square = ({ children, isSelected, updateBoard, index }) => {
+  const className = `square ${isSelected ? 'is-selected' : ''}`
 
-
-export const Square = ({children, isSelected, updateBoard, index}) =>{
-  const className = `square ${isSelected? 'is-selected':''}`
-
-  const handleClick = ()=>{
+  const handleClick = () => {
     updateBoard(index)
   }
-  return(
+  return (
     <div className={className} onClick={handleClick}>
       {children}
     </div>
   )
 }
+
+Square.propTypes;
