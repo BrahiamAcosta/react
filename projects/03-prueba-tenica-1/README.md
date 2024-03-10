@@ -4,8 +4,8 @@
 APIS:
 I.
 Facts Random: https://catfact.ninja/fact 
-Imagen random: https://cataas.com/cat/says/hello 
+Imagen random: `https://cataas.com/cat/says/${threeFirstWords}` 
 
 - Recupera un fact aleatorio de gatos de la primera API.
-- Recuperar la primera palabra del fact.
-- Muestra una imagen de un gato con la primera palabra usando la segunda API.
+- Recuperar las tres primeras palabras del fact.
+- Muestra una imagen de un gato con las palabras usando la segunda API.
