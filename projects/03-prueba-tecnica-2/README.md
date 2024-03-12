@@ -1,11 +1,10 @@
 # Description:
 APIS:
 - https://catfact.ninja/fact
-- https://developers.giphy.com/docs
+- https://cataas.com/cat/gif/says/
 
 - Extraer un dato aleatorio de la primera api. De este dato tomar las tres primeras palabras y generar un gift con estas usando 
 la segunnda api. (Busca la forma de hacerlo en la documentacion de la API)
-- API_KEY para la segunda api: "2cZkiFTqyiS79UdSapL6LHWlublpl7iy"
 
 # React + Vite
 
